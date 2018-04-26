@@ -10,6 +10,7 @@ int main()
 {
     int x,y,z;
     cin>>x>>y;
+
     z=sumfunction(x,y);
     cout<<"Sum :"<<z<<endl;
 	return 0;
