@@ -4,6 +4,11 @@ using namespace std;
 int power(int base, int power){
 	return pow(base, power);
 }
+int sumfunction(int a,int b){
+    int sum;
+    sum=a+b;
+    return sum;
+}
 
 int main()
 {
@@ -16,6 +21,9 @@ int main()
 	cout<<"Final value of Factorial : ";
 	cout<<sum;
 	p=power(2,10);
+	sum=sumfunction(5,10);
+	cout<<sum;
 	printf("%d\n", p);
 	return 0;
+
 }
