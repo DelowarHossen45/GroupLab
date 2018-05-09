@@ -9,6 +9,9 @@ int sumfunction(int a,int b){
     sum=a+b;
     return sum;
 }
+int play(){
+	cout<<"Khela hope\n";
+}
 
 int main()
 {
