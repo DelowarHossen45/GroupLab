@@ -12,6 +12,9 @@ int sumfunction(int a,int b){
 int play(){
 	cout<<"Khela hope\n";
 }
+void print(){
+	cout<<"My name is Mahady Hasan Rony ";
+}
 
 int main()
 {
